@@ -1,0 +1,44 @@
+.box {
+    display: flex;
+    border: 2px solid #1E2434;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #1E2434;
+    width: 500px;
+    height: 200px;
+}
+
+.passwordArea {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.password {
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    width: 300px;
+   
+}
+input[type="text"] {
+    outline: none;
+    padding: 2px; 
+}
+
+.copy {
+    border-radius: 0px 5px 5px 0px;
+    padding: 2px;
+}
+
+.filter {
+    margin-top: 5px;
+    display: flex;
+    color: orange;
+    justify-content: center;
+}
+.item{
+    margin: 5px;
+}
